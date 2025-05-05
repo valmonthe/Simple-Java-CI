@@ -27,4 +27,4 @@ jobs:
 
     - name: Run JUnit Tests
       run: |
-        java -cp "bin:lib/*" org.junit.runner.JUnitCore MainTest
+        java -cp "bin;lib/*" org.junit.runner.JUnitCore MainTest
