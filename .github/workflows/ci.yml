@@ -20,11 +20,6 @@ jobs:
         distribution: 'temurin'
         java-version: '17'
     
-    - name: Download JUnit
-      run: |
-        mkdir -p lib
-        wget https://repo1.maven.org/maven2/junit/junit/4.13.2/junit-4.13.2.jar -O lib/junit-4.13.2.jar
-        
     - name: Compile Java files -source and test
       run: |
         mkdir -p bin
