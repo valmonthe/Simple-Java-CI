@@ -28,3 +28,6 @@ jobs:
     - name: Run JUnit Tests
       run: |
         java -cp "bin:lib/*" org.junit.runner.JUnitCore CalculatorTest
+
+    - name: Deploy (simulation)
+      run: echo "Déploiement simulé après tests"
